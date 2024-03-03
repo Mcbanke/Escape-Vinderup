@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="da"> <!-- Updated language to Danish -->
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/css/select2.min.css">
+  <title>Stubbegård Sø Udfordringen</title> <!-- Updated title -->
+</head>
+<body>
+  <div class="game-container">
+    <div class="top-frame">
+      <h2>Stubbegård Sø Udfordringen</h2>
+      <p id="points">Point: 0</p>
+      <p id="timer">Tid: 0s</p>
+    </div>
+    <div class="bottom-frame">
+      <h2>Opgave 1: Ørnens Øje</h2>
+      <div id="task-input" class="input-container">
+        <div class="symbol-container">
+          <label for="symbol1">.</label>
+          <select id="symbol1" class="symbol-select">
+            <!-- Add options dynamically using JavaScript -->
+          </select>
+        </div>
+        <div class="symbol-container">
+          <label for="symbol2">.</label>
+          <select id="symbol2" class="symbol-select">
+            <!-- Add options dynamically using JavaScript -->
+          </select>
+        </div>
+        <div class="symbol-container">
+          <label for="symbol3">.</label>
+          <select id="symbol3" class="symbol-select">
+            <!-- Add options dynamically using JavaScript -->
+          </select>
+        </div>
+        <div class="symbol-container">
+          <label for="symbol4">.</label>
+          <select id="symbol4" class="symbol-select">
+            <!-- Add options dynamically using JavaScript -->
+          </select>
+        </div>
+        <button onclick="checkTask()">Indsend</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/js/select2.min.js"></script>
+  <script src="game.js"></script>
+</body>
+</html>

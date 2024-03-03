@@ -1,0 +1,89 @@
+body {
+  font-family: 'Georgia', serif;
+  margin: 0;
+  padding: 0;
+  background-image: url('background.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: #f7f7f7; /* Light gray font color for better readability on fantasy background */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.game-container {
+  width: 80%;
+  max-width: 800px;
+  background-color: rgba(0, 0, 0, 0.7); /* Dark transparent background for a fantasy feel */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); /* Increased shadow for depth */
+  text-align: center;
+}
+
+h2 {
+  color: #c6a652; /* Gold header color for a fantasy touch */
+}
+
+#points, #timer {
+  margin: 10px 0;
+  color: #c6a652; /* Gold font color for points and timer */
+}
+
+.task-image-container {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.task-image {
+  max-width: 100%;
+  height: auto;
+  max-height: 200px;
+  border-radius: 8px;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.symbol-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.symbol-image {
+  width: 30px;
+  height: 30px;
+  margin-right: 8px;
+  border: 1px solid #c6a652; /* Gold border for the symbol images */
+  border-radius: 4px;
+}
+
+.symbol-select {
+  width: 150px;
+}
+
+.select2-results__option .symbol-image {
+  max-width: 30px;
+  max-height: 30px;
+}
+
+button {
+  padding: 10px;
+  background-color: #5e3f0c; /* Brown button color for a fantasy feel */
+  color: #f7f7f7;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #4a2f0a; /* Darker brown on hover */
+}
